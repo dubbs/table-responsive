@@ -1,0 +1,19 @@
+.table-responsive {
+  position: relative;
+}
+
+.table-responsive-wrapper--fixed {
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 150px;
+  overflow: hidden;
+}
+
+.table-responsive-wrapper--scrollable {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
