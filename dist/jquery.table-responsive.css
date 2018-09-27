@@ -15,3 +15,12 @@
   overflow-x: auto;
   overflow-y: hidden;
 }
+
+@media print {
+  .table-responsive-wrapper--fixed {
+    display: none;
+  }
+  .table-responsive-wrapper--scrollable {
+    overflow: visible;
+  }
+}
